@@ -1,0 +1,21 @@
+module opencv [system] {
+  umbrella header "opencv2/opencv.hpp"
+  link "opencv_core"
+  link "opencv_shape"
+  link "opencv_dnn"
+  link "opencv_ml"
+  link "opencv_objdetect"
+  link "opencv_stitching"
+  link "opencv_superres"
+  link "opencv_videostab"
+  link "opencv_calib3d"
+  link "opencv_features2d"
+  link "opencv_highgui"
+  link "opencv_videoio"
+  link "opencv_imgcodecs"
+  link "opencv_video"
+  link "opencv_photo"
+  link "opencv_imgproc"
+  link "opencv_flann"
+  export *
+}
